@@ -1,0 +1,36 @@
+@import url("https://fonts.googleapis.com/css?family=Quicksand:300,400");
+
+.tripSorter__topBackground {
+  height: 486px;
+  width: 100vw;
+  background-image: url("/background.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.tripSorter__header {
+  text-align: center;
+  padding-top: 120px;
+  font-family: "Quicksand", sans-serif;
+  font-weight: 100;
+  font-size: 56px;
+  color: white;
+}
+
+.tripSorter__header--sub {
+  font-size: 20px;
+  padding: 20px;
+}
+
+.text-green {
+  color: lime;
+}
+
+.text-red {
+  color: #ff4c08;
+}
+
+.tripSorter__container {
+  max-width: 1280px;
+  margin: 0 auto;
+}

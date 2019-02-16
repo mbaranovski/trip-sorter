@@ -1,0 +1,1741 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Calculates Dijkastra distance for every node for cheapest scenario from London 1`] = `
+Object {
+  "Amsterdam": Object {
+    "cost": 40,
+    "discount": 25,
+    "dist": 30,
+    "duration": Object {
+      "h": "07",
+      "m": "45",
+    },
+    "prev": "London",
+    "reference": "BLA0745",
+    "transport": "bus",
+    "weight": 30,
+  },
+  "Athens": Object {
+    "cost": 40,
+    "discount": 50,
+    "dist": 120,
+    "duration": Object {
+      "h": "07",
+      "m": "45",
+    },
+    "prev": "Budapest",
+    "reference": "BBA0745",
+    "transport": "bus",
+    "weight": 20,
+  },
+  "Brussels": Object {
+    "cost": 40,
+    "discount": 25,
+    "dist": 50,
+    "duration": Object {
+      "h": "06",
+      "m": "30",
+    },
+    "prev": "Paris",
+    "reference": "BPB0630",
+    "transport": "bus",
+    "weight": 30,
+  },
+  "Budapest": Object {
+    "cost": 40,
+    "discount": 25,
+    "dist": 100,
+    "duration": Object {
+      "h": "07",
+      "m": "00",
+    },
+    "prev": "Prague",
+    "reference": "BPB0700",
+    "transport": "bus",
+    "weight": 30,
+  },
+  "Geneva": Object {
+    "cost": 40,
+    "discount": 50,
+    "dist": 70,
+    "duration": Object {
+      "h": "07",
+      "m": "30",
+    },
+    "prev": "Madrid",
+    "reference": "BMG0730",
+    "transport": "bus",
+    "weight": 20,
+  },
+  "Istanbul": Object {
+    "cost": 40,
+    "discount": 50,
+    "dist": 140,
+    "duration": Object {
+      "h": "06",
+      "m": "00",
+    },
+    "prev": "Kiev",
+    "reference": "BKI0600",
+    "transport": "bus",
+    "weight": 20,
+  },
+  "Kiev": Object {
+    "cost": 40,
+    "discount": 50,
+    "dist": 120,
+    "duration": Object {
+      "h": "07",
+      "m": "00",
+    },
+    "prev": "Moscow",
+    "reference": "BMK0700",
+    "transport": "bus",
+    "weight": 20,
+  },
+  "Lisbon": Object {
+    "cost": 40,
+    "discount": 25,
+    "dist": 80,
+    "duration": Object {
+      "h": "05",
+      "m": "00",
+    },
+    "prev": "Madrid",
+    "reference": "BML0500",
+    "transport": "bus",
+    "weight": 30,
+  },
+  "London": Object {
+    "dist": 0,
+    "prev": null,
+  },
+  "Madrid": Object {
+    "cost": 40,
+    "discount": 25,
+    "dist": 50,
+    "duration": Object {
+      "h": "06",
+      "m": "45",
+    },
+    "prev": "Paris",
+    "reference": "BPM0645",
+    "transport": "bus",
+    "weight": 30,
+  },
+  "Moscow": Object {
+    "cost": 40,
+    "discount": 25,
+    "dist": 100,
+    "duration": Object {
+      "h": "05",
+      "m": "00",
+    },
+    "prev": "Prague",
+    "reference": "BPM0500",
+    "transport": "bus",
+    "weight": 30,
+  },
+  "Paris": Object {
+    "cost": 40,
+    "discount": 50,
+    "dist": 20,
+    "duration": Object {
+      "h": "05",
+      "m": "30",
+    },
+    "prev": "London",
+    "reference": "BLP0530",
+    "transport": "bus",
+    "weight": 20,
+  },
+  "Prague": Object {
+    "cost": 40,
+    "discount": 50,
+    "dist": 70,
+    "duration": Object {
+      "h": "05",
+      "m": "45",
+    },
+    "prev": "Brussels",
+    "reference": "BBP0545",
+    "transport": "bus",
+    "weight": 20,
+  },
+  "Rome": Object {
+    "cost": 40,
+    "discount": 25,
+    "dist": 100,
+    "duration": Object {
+      "h": "06",
+      "m": "30",
+    },
+    "prev": "Geneva",
+    "reference": "BGR0630",
+    "transport": "bus",
+    "weight": 30,
+  },
+  "Stockholm": Object {
+    "cost": 40,
+    "discount": 50,
+    "dist": 80,
+    "duration": Object {
+      "h": "05",
+      "m": "15",
+    },
+    "prev": "Warsaw",
+    "reference": "BWS0515",
+    "transport": "bus",
+    "weight": 20,
+  },
+  "Warsaw": Object {
+    "cost": 40,
+    "discount": 25,
+    "dist": 60,
+    "duration": Object {
+      "h": "05",
+      "m": "15",
+    },
+    "prev": "Amsterdam",
+    "reference": "BAW0515",
+    "transport": "bus",
+    "weight": 30,
+  },
+}
+`;
+
+exports[`Calculates Dijkastra distance for every node for shortest scenario from Paris 1`] = `
+Object {
+  "Amsterdam": Object {
+    "cost": 120,
+    "discount": 0,
+    "dist": 480,
+    "duration": Object {
+      "h": "04",
+      "m": "45",
+    },
+    "prev": "London",
+    "reference": "CLA0445",
+    "transport": "car",
+    "weight": 285,
+  },
+  "Athens": Object {
+    "cost": 120,
+    "discount": 0,
+    "dist": 930,
+    "duration": Object {
+      "h": "04",
+      "m": "30",
+    },
+    "prev": "Rome",
+    "reference": "CRA0430",
+    "transport": "car",
+    "weight": 270,
+  },
+  "Brussels": Object {
+    "cost": 160,
+    "discount": 25,
+    "dist": 330,
+    "duration": Object {
+      "h": "05",
+      "m": "30",
+    },
+    "prev": "Paris",
+    "reference": "TPB0530",
+    "transport": "train",
+    "weight": 330,
+  },
+  "Budapest": Object {
+    "cost": 160,
+    "discount": 0,
+    "dist": 735,
+    "duration": Object {
+      "h": "04",
+      "m": "45",
+    },
+    "prev": "Geneva",
+    "reference": "TGB0445",
+    "transport": "train",
+    "weight": 285,
+  },
+  "Geneva": Object {
+    "cost": 120,
+    "discount": 0,
+    "dist": 450,
+    "duration": Object {
+      "h": "04",
+      "m": "15",
+    },
+    "prev": "Madrid",
+    "reference": "CMG0415",
+    "transport": "car",
+    "weight": 255,
+  },
+  "Istanbul": Object {
+    "cost": 120,
+    "discount": 0,
+    "dist": 1245,
+    "duration": Object {
+      "h": "05",
+      "m": "15",
+    },
+    "prev": "Athens",
+    "reference": "CAI0515",
+    "transport": "car",
+    "weight": 315,
+  },
+  "Kiev": Object {
+    "cost": 120,
+    "discount": 0,
+    "dist": 1020,
+    "duration": Object {
+      "h": "04",
+      "m": "15",
+    },
+    "prev": "Moscow",
+    "reference": "CMK0415",
+    "transport": "car",
+    "weight": 255,
+  },
+  "Lisbon": Object {
+    "cost": 160,
+    "discount": 0,
+    "dist": 435,
+    "duration": Object {
+      "h": "04",
+      "m": "00",
+    },
+    "prev": "Madrid",
+    "reference": "TML0400",
+    "transport": "train",
+    "weight": 240,
+  },
+  "London": Object {
+    "cost": 160,
+    "discount": 25,
+    "dist": 195,
+    "duration": Object {
+      "h": "03",
+      "m": "15",
+    },
+    "prev": "Paris",
+    "reference": "TPL0315",
+    "transport": "train",
+    "weight": 195,
+  },
+  "Madrid": Object {
+    "cost": 160,
+    "discount": 0,
+    "dist": 195,
+    "duration": Object {
+      "h": "03",
+      "m": "15",
+    },
+    "prev": "Paris",
+    "reference": "TPM0315",
+    "transport": "train",
+    "weight": 195,
+  },
+  "Moscow": Object {
+    "cost": 160,
+    "discount": 0,
+    "dist": 765,
+    "duration": Object {
+      "h": "04",
+      "m": "15",
+    },
+    "prev": "Prague",
+    "reference": "TPM0415",
+    "transport": "train",
+    "weight": 255,
+  },
+  "Paris": Object {
+    "dist": 0,
+    "prev": null,
+  },
+  "Prague": Object {
+    "cost": 160,
+    "discount": 0,
+    "dist": 510,
+    "duration": Object {
+      "h": "03",
+      "m": "00",
+    },
+    "prev": "Brussels",
+    "reference": "TBP0300",
+    "transport": "train",
+    "weight": 180,
+  },
+  "Rome": Object {
+    "cost": 160,
+    "discount": 0,
+    "dist": 660,
+    "duration": Object {
+      "h": "03",
+      "m": "30",
+    },
+    "prev": "Geneva",
+    "reference": "TGR0330",
+    "transport": "train",
+    "weight": 210,
+  },
+  "Stockholm": Object {
+    "cost": 160,
+    "discount": 0,
+    "dist": 990,
+    "duration": Object {
+      "h": "03",
+      "m": "45",
+    },
+    "prev": "Moscow",
+    "reference": "TMS0345",
+    "transport": "train",
+    "weight": 225,
+  },
+  "Warsaw": Object {
+    "cost": 120,
+    "discount": 0,
+    "dist": 765,
+    "duration": Object {
+      "h": "04",
+      "m": "45",
+    },
+    "prev": "Amsterdam",
+    "reference": "CAW0445",
+    "transport": "car",
+    "weight": 285,
+  },
+}
+`;
+
+exports[`Calculates initial distance for each node from London 1`] = `
+Object {
+  "Amsterdam": Object {
+    "dist": Infinity,
+    "prev": null,
+  },
+  "Athens": Object {
+    "dist": Infinity,
+    "prev": null,
+  },
+  "Brussels": Object {
+    "dist": Infinity,
+    "prev": null,
+  },
+  "Budapest": Object {
+    "dist": Infinity,
+    "prev": null,
+  },
+  "Geneva": Object {
+    "dist": Infinity,
+    "prev": null,
+  },
+  "Istanbul": Object {
+    "dist": Infinity,
+    "prev": null,
+  },
+  "Kiev": Object {
+    "dist": Infinity,
+    "prev": null,
+  },
+  "Lisbon": Object {
+    "dist": Infinity,
+    "prev": null,
+  },
+  "London": Object {
+    "dist": 0,
+    "prev": null,
+  },
+  "Madrid": Object {
+    "dist": Infinity,
+    "prev": null,
+  },
+  "Moscow": Object {
+    "dist": Infinity,
+    "prev": null,
+  },
+  "Paris": Object {
+    "dist": Infinity,
+    "prev": null,
+  },
+  "Prague": Object {
+    "dist": Infinity,
+    "prev": null,
+  },
+  "Rome": Object {
+    "dist": Infinity,
+    "prev": null,
+  },
+  "Stockholm": Object {
+    "dist": Infinity,
+    "prev": null,
+  },
+  "Warsaw": Object {
+    "dist": Infinity,
+    "prev": null,
+  },
+}
+`;
+
+exports[`Calculates initial distance for each node from Paris 1`] = `
+Object {
+  "Amsterdam": Object {
+    "dist": Infinity,
+    "prev": null,
+  },
+  "Athens": Object {
+    "dist": Infinity,
+    "prev": null,
+  },
+  "Brussels": Object {
+    "dist": Infinity,
+    "prev": null,
+  },
+  "Budapest": Object {
+    "dist": Infinity,
+    "prev": null,
+  },
+  "Geneva": Object {
+    "dist": Infinity,
+    "prev": null,
+  },
+  "Istanbul": Object {
+    "dist": Infinity,
+    "prev": null,
+  },
+  "Kiev": Object {
+    "dist": Infinity,
+    "prev": null,
+  },
+  "Lisbon": Object {
+    "dist": Infinity,
+    "prev": null,
+  },
+  "London": Object {
+    "dist": Infinity,
+    "prev": null,
+  },
+  "Madrid": Object {
+    "dist": Infinity,
+    "prev": null,
+  },
+  "Moscow": Object {
+    "dist": Infinity,
+    "prev": null,
+  },
+  "Paris": Object {
+    "dist": 0,
+    "prev": null,
+  },
+  "Prague": Object {
+    "dist": Infinity,
+    "prev": null,
+  },
+  "Rome": Object {
+    "dist": Infinity,
+    "prev": null,
+  },
+  "Stockholm": Object {
+    "dist": Infinity,
+    "prev": null,
+  },
+  "Warsaw": Object {
+    "dist": Infinity,
+    "prev": null,
+  },
+}
+`;
+
+exports[`Creates cheapest graph based on provided deals 1`] = `
+Object {
+  "Amsterdam": Object {
+    "edges": Object {
+      "Brussels": Object {
+        "cost": 40,
+        "discount": 0,
+        "duration": Object {
+          "h": "05",
+          "m": "45",
+        },
+        "reference": "BAB0545",
+        "transport": "bus",
+        "weight": 40,
+      },
+      "London": Object {
+        "cost": 40,
+        "discount": 50,
+        "duration": Object {
+          "h": "05",
+          "m": "45",
+        },
+        "reference": "BAL0545",
+        "transport": "bus",
+        "weight": 20,
+      },
+      "Warsaw": Object {
+        "cost": 40,
+        "discount": 25,
+        "duration": Object {
+          "h": "05",
+          "m": "15",
+        },
+        "reference": "BAW0515",
+        "transport": "bus",
+        "weight": 30,
+      },
+    },
+  },
+  "Athens": Object {
+    "edges": Object {
+      "Budapest": Object {
+        "cost": 40,
+        "discount": 50,
+        "duration": Object {
+          "h": "05",
+          "m": "00",
+        },
+        "reference": "BAB0500",
+        "transport": "bus",
+        "weight": 20,
+      },
+      "Istanbul": Object {
+        "cost": 40,
+        "discount": 25,
+        "duration": Object {
+          "h": "05",
+          "m": "30",
+        },
+        "reference": "BAI0530",
+        "transport": "bus",
+        "weight": 30,
+      },
+      "Rome": Object {
+        "cost": 40,
+        "discount": 0,
+        "duration": Object {
+          "h": "06",
+          "m": "00",
+        },
+        "reference": "BAR0600",
+        "transport": "bus",
+        "weight": 40,
+      },
+    },
+  },
+  "Brussels": Object {
+    "edges": Object {
+      "Amsterdam": Object {
+        "cost": 40,
+        "discount": 50,
+        "duration": Object {
+          "h": "05",
+          "m": "15",
+        },
+        "reference": "BBA0515",
+        "transport": "bus",
+        "weight": 20,
+      },
+      "Geneva": Object {
+        "cost": 40,
+        "discount": 0,
+        "duration": Object {
+          "h": "07",
+          "m": "15",
+        },
+        "reference": "BBG0715",
+        "transport": "bus",
+        "weight": 40,
+      },
+      "Paris": Object {
+        "cost": 40,
+        "discount": 0,
+        "duration": Object {
+          "h": "05",
+          "m": "45",
+        },
+        "reference": "BBP0545",
+        "transport": "bus",
+        "weight": 40,
+      },
+      "Prague": Object {
+        "cost": 40,
+        "discount": 50,
+        "duration": Object {
+          "h": "05",
+          "m": "45",
+        },
+        "reference": "BBP0545",
+        "transport": "bus",
+        "weight": 20,
+      },
+    },
+  },
+  "Budapest": Object {
+    "edges": Object {
+      "Athens": Object {
+        "cost": 40,
+        "discount": 50,
+        "duration": Object {
+          "h": "07",
+          "m": "45",
+        },
+        "reference": "BBA0745",
+        "transport": "bus",
+        "weight": 20,
+      },
+      "Geneva": Object {
+        "cost": 40,
+        "discount": 50,
+        "duration": Object {
+          "h": "05",
+          "m": "00",
+        },
+        "reference": "BBG0500",
+        "transport": "bus",
+        "weight": 20,
+      },
+      "Kiev": Object {
+        "cost": 40,
+        "discount": 25,
+        "duration": Object {
+          "h": "05",
+          "m": "15",
+        },
+        "reference": "BBK0515",
+        "transport": "bus",
+        "weight": 30,
+      },
+      "Prague": Object {
+        "cost": 40,
+        "discount": 0,
+        "duration": Object {
+          "h": "06",
+          "m": "15",
+        },
+        "reference": "BBP0615",
+        "transport": "bus",
+        "weight": 40,
+      },
+    },
+  },
+  "Geneva": Object {
+    "edges": Object {
+      "Brussels": Object {
+        "cost": 40,
+        "discount": 0,
+        "duration": Object {
+          "h": "05",
+          "m": "15",
+        },
+        "reference": "BGB0515",
+        "transport": "bus",
+        "weight": 40,
+      },
+      "Budapest": Object {
+        "cost": 40,
+        "discount": 0,
+        "duration": Object {
+          "h": "05",
+          "m": "30",
+        },
+        "reference": "BGB0530",
+        "transport": "bus",
+        "weight": 40,
+      },
+      "Madrid": Object {
+        "cost": 40,
+        "discount": 0,
+        "duration": Object {
+          "h": "06",
+          "m": "45",
+        },
+        "reference": "BGM0645",
+        "transport": "bus",
+        "weight": 40,
+      },
+      "Rome": Object {
+        "cost": 40,
+        "discount": 25,
+        "duration": Object {
+          "h": "06",
+          "m": "30",
+        },
+        "reference": "BGR0630",
+        "transport": "bus",
+        "weight": 30,
+      },
+    },
+  },
+  "Istanbul": Object {
+    "edges": Object {
+      "Athens": Object {
+        "cost": 40,
+        "discount": 50,
+        "duration": Object {
+          "h": "05",
+          "m": "15",
+        },
+        "reference": "BIA0515",
+        "transport": "bus",
+        "weight": 20,
+      },
+      "Kiev": Object {
+        "cost": 40,
+        "discount": 25,
+        "duration": Object {
+          "h": "05",
+          "m": "30",
+        },
+        "reference": "BIK0530",
+        "transport": "bus",
+        "weight": 30,
+      },
+    },
+  },
+  "Kiev": Object {
+    "edges": Object {
+      "Budapest": Object {
+        "cost": 40,
+        "discount": 50,
+        "duration": Object {
+          "h": "06",
+          "m": "00",
+        },
+        "reference": "BKB0600",
+        "transport": "bus",
+        "weight": 20,
+      },
+      "Istanbul": Object {
+        "cost": 40,
+        "discount": 50,
+        "duration": Object {
+          "h": "06",
+          "m": "00",
+        },
+        "reference": "BKI0600",
+        "transport": "bus",
+        "weight": 20,
+      },
+      "Moscow": Object {
+        "cost": 40,
+        "discount": 0,
+        "duration": Object {
+          "h": "05",
+          "m": "00",
+        },
+        "reference": "BKM0500",
+        "transport": "bus",
+        "weight": 40,
+      },
+    },
+  },
+  "Lisbon": Object {
+    "edges": Object {
+      "Madrid": Object {
+        "cost": 40,
+        "discount": 0,
+        "duration": Object {
+          "h": "07",
+          "m": "45",
+        },
+        "reference": "BLM0745",
+        "transport": "bus",
+        "weight": 40,
+      },
+      "Rome": Object {
+        "cost": 40,
+        "discount": 25,
+        "duration": Object {
+          "h": "07",
+          "m": "30",
+        },
+        "reference": "BLR0730",
+        "transport": "bus",
+        "weight": 30,
+      },
+    },
+  },
+  "London": Object {
+    "edges": Object {
+      "Amsterdam": Object {
+        "cost": 40,
+        "discount": 25,
+        "duration": Object {
+          "h": "07",
+          "m": "45",
+        },
+        "reference": "BLA0745",
+        "transport": "bus",
+        "weight": 30,
+      },
+      "Paris": Object {
+        "cost": 40,
+        "discount": 50,
+        "duration": Object {
+          "h": "05",
+          "m": "30",
+        },
+        "reference": "BLP0530",
+        "transport": "bus",
+        "weight": 20,
+      },
+    },
+  },
+  "Madrid": Object {
+    "edges": Object {
+      "Geneva": Object {
+        "cost": 40,
+        "discount": 50,
+        "duration": Object {
+          "h": "07",
+          "m": "30",
+        },
+        "reference": "BMG0730",
+        "transport": "bus",
+        "weight": 20,
+      },
+      "Lisbon": Object {
+        "cost": 40,
+        "discount": 25,
+        "duration": Object {
+          "h": "05",
+          "m": "00",
+        },
+        "reference": "BML0500",
+        "transport": "bus",
+        "weight": 30,
+      },
+      "Paris": Object {
+        "cost": 40,
+        "discount": 50,
+        "duration": Object {
+          "h": "05",
+          "m": "30",
+        },
+        "reference": "BMP0530",
+        "transport": "bus",
+        "weight": 20,
+      },
+    },
+  },
+  "Moscow": Object {
+    "edges": Object {
+      "Kiev": Object {
+        "cost": 40,
+        "discount": 50,
+        "duration": Object {
+          "h": "07",
+          "m": "00",
+        },
+        "reference": "BMK0700",
+        "transport": "bus",
+        "weight": 20,
+      },
+      "Prague": Object {
+        "cost": 40,
+        "discount": 25,
+        "duration": Object {
+          "h": "05",
+          "m": "00",
+        },
+        "reference": "BMP0500",
+        "transport": "bus",
+        "weight": 30,
+      },
+      "Stockholm": Object {
+        "cost": 40,
+        "discount": 25,
+        "duration": Object {
+          "h": "06",
+          "m": "00",
+        },
+        "reference": "BMS0600",
+        "transport": "bus",
+        "weight": 30,
+      },
+    },
+  },
+  "Paris": Object {
+    "edges": Object {
+      "Brussels": Object {
+        "cost": 40,
+        "discount": 25,
+        "duration": Object {
+          "h": "06",
+          "m": "30",
+        },
+        "reference": "BPB0630",
+        "transport": "bus",
+        "weight": 30,
+      },
+      "London": Object {
+        "cost": 40,
+        "discount": 50,
+        "duration": Object {
+          "h": "06",
+          "m": "15",
+        },
+        "reference": "BPL0615",
+        "transport": "bus",
+        "weight": 20,
+      },
+      "Madrid": Object {
+        "cost": 40,
+        "discount": 25,
+        "duration": Object {
+          "h": "06",
+          "m": "45",
+        },
+        "reference": "BPM0645",
+        "transport": "bus",
+        "weight": 30,
+      },
+    },
+  },
+  "Prague": Object {
+    "edges": Object {
+      "Brussels": Object {
+        "cost": 40,
+        "discount": 25,
+        "duration": Object {
+          "h": "05",
+          "m": "15",
+        },
+        "reference": "BPB0515",
+        "transport": "bus",
+        "weight": 30,
+      },
+      "Budapest": Object {
+        "cost": 40,
+        "discount": 25,
+        "duration": Object {
+          "h": "07",
+          "m": "00",
+        },
+        "reference": "BPB0700",
+        "transport": "bus",
+        "weight": 30,
+      },
+      "Moscow": Object {
+        "cost": 40,
+        "discount": 25,
+        "duration": Object {
+          "h": "05",
+          "m": "00",
+        },
+        "reference": "BPM0500",
+        "transport": "bus",
+        "weight": 30,
+      },
+      "Warsaw": Object {
+        "cost": 40,
+        "discount": 25,
+        "duration": Object {
+          "h": "06",
+          "m": "30",
+        },
+        "reference": "BPW0630",
+        "transport": "bus",
+        "weight": 30,
+      },
+    },
+  },
+  "Rome": Object {
+    "edges": Object {
+      "Athens": Object {
+        "cost": 40,
+        "discount": 0,
+        "duration": Object {
+          "h": "07",
+          "m": "45",
+        },
+        "reference": "BRA0745",
+        "transport": "bus",
+        "weight": 40,
+      },
+      "Geneva": Object {
+        "cost": 40,
+        "discount": 50,
+        "duration": Object {
+          "h": "07",
+          "m": "00",
+        },
+        "reference": "BRG0700",
+        "transport": "bus",
+        "weight": 20,
+      },
+      "Lisbon": Object {
+        "cost": 40,
+        "discount": 50,
+        "duration": Object {
+          "h": "05",
+          "m": "30",
+        },
+        "reference": "BRL0530",
+        "transport": "bus",
+        "weight": 20,
+      },
+    },
+  },
+  "Stockholm": Object {
+    "edges": Object {
+      "Moscow": Object {
+        "cost": 40,
+        "discount": 25,
+        "duration": Object {
+          "h": "05",
+          "m": "30",
+        },
+        "reference": "BSM0530",
+        "transport": "bus",
+        "weight": 30,
+      },
+      "Warsaw": Object {
+        "cost": 40,
+        "discount": 0,
+        "duration": Object {
+          "h": "05",
+          "m": "45",
+        },
+        "reference": "BSW0545",
+        "transport": "bus",
+        "weight": 40,
+      },
+    },
+  },
+  "Warsaw": Object {
+    "edges": Object {
+      "Amsterdam": Object {
+        "cost": 40,
+        "discount": 0,
+        "duration": Object {
+          "h": "05",
+          "m": "45",
+        },
+        "reference": "BWA0545",
+        "transport": "bus",
+        "weight": 40,
+      },
+      "Prague": Object {
+        "cost": 40,
+        "discount": 0,
+        "duration": Object {
+          "h": "06",
+          "m": "15",
+        },
+        "reference": "BWP0615",
+        "transport": "bus",
+        "weight": 40,
+      },
+      "Stockholm": Object {
+        "cost": 40,
+        "discount": 50,
+        "duration": Object {
+          "h": "05",
+          "m": "15",
+        },
+        "reference": "BWS0515",
+        "transport": "bus",
+        "weight": 20,
+      },
+    },
+  },
+}
+`;
+
+exports[`Creates shortest graph based on provided deals 1`] = `
+Object {
+  "Amsterdam": Object {
+    "edges": Object {
+      "Brussels": Object {
+        "cost": 120,
+        "discount": 0,
+        "duration": Object {
+          "h": "04",
+          "m": "30",
+        },
+        "reference": "CAB0430",
+        "transport": "car",
+        "weight": 270,
+      },
+      "London": Object {
+        "cost": 120,
+        "discount": 0,
+        "duration": Object {
+          "h": "04",
+          "m": "00",
+        },
+        "reference": "CAL0400",
+        "transport": "car",
+        "weight": 240,
+      },
+      "Warsaw": Object {
+        "cost": 120,
+        "discount": 0,
+        "duration": Object {
+          "h": "04",
+          "m": "45",
+        },
+        "reference": "CAW0445",
+        "transport": "car",
+        "weight": 285,
+      },
+    },
+  },
+  "Athens": Object {
+    "edges": Object {
+      "Budapest": Object {
+        "cost": 120,
+        "discount": 0,
+        "duration": Object {
+          "h": "04",
+          "m": "45",
+        },
+        "reference": "CAB0445",
+        "transport": "car",
+        "weight": 285,
+      },
+      "Istanbul": Object {
+        "cost": 120,
+        "discount": 0,
+        "duration": Object {
+          "h": "05",
+          "m": "15",
+        },
+        "reference": "CAI0515",
+        "transport": "car",
+        "weight": 315,
+      },
+      "Rome": Object {
+        "cost": 120,
+        "discount": 0,
+        "duration": Object {
+          "h": "04",
+          "m": "15",
+        },
+        "reference": "CAR0415",
+        "transport": "car",
+        "weight": 255,
+      },
+    },
+  },
+  "Brussels": Object {
+    "edges": Object {
+      "Amsterdam": Object {
+        "cost": 120,
+        "discount": 0,
+        "duration": Object {
+          "h": "04",
+          "m": "30",
+        },
+        "reference": "CBA0430",
+        "transport": "car",
+        "weight": 270,
+      },
+      "Geneva": Object {
+        "cost": 160,
+        "discount": 0,
+        "duration": Object {
+          "h": "04",
+          "m": "45",
+        },
+        "reference": "TBG0445",
+        "transport": "train",
+        "weight": 285,
+      },
+      "Paris": Object {
+        "cost": 160,
+        "discount": 0,
+        "duration": Object {
+          "h": "04",
+          "m": "00",
+        },
+        "reference": "TBP0400",
+        "transport": "train",
+        "weight": 240,
+      },
+      "Prague": Object {
+        "cost": 160,
+        "discount": 0,
+        "duration": Object {
+          "h": "03",
+          "m": "00",
+        },
+        "reference": "TBP0300",
+        "transport": "train",
+        "weight": 180,
+      },
+    },
+  },
+  "Budapest": Object {
+    "edges": Object {
+      "Athens": Object {
+        "cost": 160,
+        "discount": 0,
+        "duration": Object {
+          "h": "03",
+          "m": "30",
+        },
+        "reference": "TBA0330",
+        "transport": "train",
+        "weight": 210,
+      },
+      "Geneva": Object {
+        "cost": 160,
+        "discount": 0,
+        "duration": Object {
+          "h": "03",
+          "m": "00",
+        },
+        "reference": "TBG0300",
+        "transport": "train",
+        "weight": 180,
+      },
+      "Kiev": Object {
+        "cost": 160,
+        "discount": 50,
+        "duration": Object {
+          "h": "05",
+          "m": "15",
+        },
+        "reference": "TBK0515",
+        "transport": "train",
+        "weight": 315,
+      },
+      "Prague": Object {
+        "cost": 160,
+        "discount": 0,
+        "duration": Object {
+          "h": "03",
+          "m": "45",
+        },
+        "reference": "TBP0345",
+        "transport": "train",
+        "weight": 225,
+      },
+    },
+  },
+  "Geneva": Object {
+    "edges": Object {
+      "Brussels": Object {
+        "cost": 160,
+        "discount": 0,
+        "duration": Object {
+          "h": "03",
+          "m": "00",
+        },
+        "reference": "TGB0300",
+        "transport": "train",
+        "weight": 180,
+      },
+      "Budapest": Object {
+        "cost": 160,
+        "discount": 0,
+        "duration": Object {
+          "h": "04",
+          "m": "45",
+        },
+        "reference": "TGB0445",
+        "transport": "train",
+        "weight": 285,
+      },
+      "Madrid": Object {
+        "cost": 160,
+        "discount": 25,
+        "duration": Object {
+          "h": "05",
+          "m": "00",
+        },
+        "reference": "TGM0500",
+        "transport": "train",
+        "weight": 300,
+      },
+      "Rome": Object {
+        "cost": 160,
+        "discount": 0,
+        "duration": Object {
+          "h": "03",
+          "m": "30",
+        },
+        "reference": "TGR0330",
+        "transport": "train",
+        "weight": 210,
+      },
+    },
+  },
+  "Istanbul": Object {
+    "edges": Object {
+      "Athens": Object {
+        "cost": 160,
+        "discount": 25,
+        "duration": Object {
+          "h": "03",
+          "m": "30",
+        },
+        "reference": "TIA0330",
+        "transport": "train",
+        "weight": 210,
+      },
+      "Kiev": Object {
+        "cost": 120,
+        "discount": 0,
+        "duration": Object {
+          "h": "05",
+          "m": "00",
+        },
+        "reference": "CIK0500",
+        "transport": "car",
+        "weight": 300,
+      },
+    },
+  },
+  "Kiev": Object {
+    "edges": Object {
+      "Budapest": Object {
+        "cost": 120,
+        "discount": 0,
+        "duration": Object {
+          "h": "04",
+          "m": "15",
+        },
+        "reference": "CKB0415",
+        "transport": "car",
+        "weight": 255,
+      },
+      "Istanbul": Object {
+        "cost": 160,
+        "discount": 25,
+        "duration": Object {
+          "h": "04",
+          "m": "15",
+        },
+        "reference": "TKI0415",
+        "transport": "train",
+        "weight": 255,
+      },
+      "Moscow": Object {
+        "cost": 160,
+        "discount": 0,
+        "duration": Object {
+          "h": "05",
+          "m": "00",
+        },
+        "reference": "TKM0500",
+        "transport": "train",
+        "weight": 300,
+      },
+    },
+  },
+  "Lisbon": Object {
+    "edges": Object {
+      "Madrid": Object {
+        "cost": 120,
+        "discount": 0,
+        "duration": Object {
+          "h": "04",
+          "m": "30",
+        },
+        "reference": "CLM0430",
+        "transport": "car",
+        "weight": 270,
+      },
+      "Rome": Object {
+        "cost": 120,
+        "discount": 0,
+        "duration": Object {
+          "h": "05",
+          "m": "00",
+        },
+        "reference": "CLR0500",
+        "transport": "car",
+        "weight": 300,
+      },
+    },
+  },
+  "London": Object {
+    "edges": Object {
+      "Amsterdam": Object {
+        "cost": 120,
+        "discount": 0,
+        "duration": Object {
+          "h": "04",
+          "m": "45",
+        },
+        "reference": "CLA0445",
+        "transport": "car",
+        "weight": 285,
+      },
+      "Paris": Object {
+        "cost": 120,
+        "discount": 0,
+        "duration": Object {
+          "h": "04",
+          "m": "15",
+        },
+        "reference": "CLP0415",
+        "transport": "car",
+        "weight": 255,
+      },
+    },
+  },
+  "Madrid": Object {
+    "edges": Object {
+      "Geneva": Object {
+        "cost": 120,
+        "discount": 0,
+        "duration": Object {
+          "h": "04",
+          "m": "15",
+        },
+        "reference": "CMG0415",
+        "transport": "car",
+        "weight": 255,
+      },
+      "Lisbon": Object {
+        "cost": 160,
+        "discount": 0,
+        "duration": Object {
+          "h": "04",
+          "m": "00",
+        },
+        "reference": "TML0400",
+        "transport": "train",
+        "weight": 240,
+      },
+      "Paris": Object {
+        "cost": 160,
+        "discount": 50,
+        "duration": Object {
+          "h": "05",
+          "m": "00",
+        },
+        "reference": "TMP0500",
+        "transport": "train",
+        "weight": 300,
+      },
+    },
+  },
+  "Moscow": Object {
+    "edges": Object {
+      "Kiev": Object {
+        "cost": 120,
+        "discount": 0,
+        "duration": Object {
+          "h": "04",
+          "m": "15",
+        },
+        "reference": "CMK0415",
+        "transport": "car",
+        "weight": 255,
+      },
+      "Prague": Object {
+        "cost": 160,
+        "discount": 0,
+        "duration": Object {
+          "h": "03",
+          "m": "30",
+        },
+        "reference": "TMP0330",
+        "transport": "train",
+        "weight": 210,
+      },
+      "Stockholm": Object {
+        "cost": 160,
+        "discount": 0,
+        "duration": Object {
+          "h": "03",
+          "m": "45",
+        },
+        "reference": "TMS0345",
+        "transport": "train",
+        "weight": 225,
+      },
+    },
+  },
+  "Paris": Object {
+    "edges": Object {
+      "Brussels": Object {
+        "cost": 160,
+        "discount": 25,
+        "duration": Object {
+          "h": "05",
+          "m": "30",
+        },
+        "reference": "TPB0530",
+        "transport": "train",
+        "weight": 330,
+      },
+      "London": Object {
+        "cost": 160,
+        "discount": 25,
+        "duration": Object {
+          "h": "03",
+          "m": "15",
+        },
+        "reference": "TPL0315",
+        "transport": "train",
+        "weight": 195,
+      },
+      "Madrid": Object {
+        "cost": 160,
+        "discount": 0,
+        "duration": Object {
+          "h": "03",
+          "m": "15",
+        },
+        "reference": "TPM0315",
+        "transport": "train",
+        "weight": 195,
+      },
+    },
+  },
+  "Prague": Object {
+    "edges": Object {
+      "Brussels": Object {
+        "cost": 160,
+        "discount": 0,
+        "duration": Object {
+          "h": "05",
+          "m": "15",
+        },
+        "reference": "TPB0515",
+        "transport": "train",
+        "weight": 315,
+      },
+      "Budapest": Object {
+        "cost": 160,
+        "discount": 25,
+        "duration": Object {
+          "h": "04",
+          "m": "00",
+        },
+        "reference": "TPB0400",
+        "transport": "train",
+        "weight": 240,
+      },
+      "Moscow": Object {
+        "cost": 160,
+        "discount": 0,
+        "duration": Object {
+          "h": "04",
+          "m": "15",
+        },
+        "reference": "TPM0415",
+        "transport": "train",
+        "weight": 255,
+      },
+      "Warsaw": Object {
+        "cost": 160,
+        "discount": 50,
+        "duration": Object {
+          "h": "04",
+          "m": "30",
+        },
+        "reference": "TPW0430",
+        "transport": "train",
+        "weight": 270,
+      },
+    },
+  },
+  "Rome": Object {
+    "edges": Object {
+      "Athens": Object {
+        "cost": 120,
+        "discount": 0,
+        "duration": Object {
+          "h": "04",
+          "m": "30",
+        },
+        "reference": "CRA0430",
+        "transport": "car",
+        "weight": 270,
+      },
+      "Geneva": Object {
+        "cost": 120,
+        "discount": 0,
+        "duration": Object {
+          "h": "04",
+          "m": "30",
+        },
+        "reference": "CRG0430",
+        "transport": "car",
+        "weight": 270,
+      },
+      "Lisbon": Object {
+        "cost": 160,
+        "discount": 25,
+        "duration": Object {
+          "h": "04",
+          "m": "15",
+        },
+        "reference": "TRL0415",
+        "transport": "train",
+        "weight": 255,
+      },
+    },
+  },
+  "Stockholm": Object {
+    "edges": Object {
+      "Moscow": Object {
+        "cost": 120,
+        "discount": 0,
+        "duration": Object {
+          "h": "04",
+          "m": "00",
+        },
+        "reference": "CSM0400",
+        "transport": "car",
+        "weight": 240,
+      },
+      "Warsaw": Object {
+        "cost": 160,
+        "discount": 25,
+        "duration": Object {
+          "h": "05",
+          "m": "00",
+        },
+        "reference": "TSW0500",
+        "transport": "train",
+        "weight": 300,
+      },
+    },
+  },
+  "Warsaw": Object {
+    "edges": Object {
+      "Amsterdam": Object {
+        "cost": 120,
+        "discount": 0,
+        "duration": Object {
+          "h": "04",
+          "m": "15",
+        },
+        "reference": "CWA0415",
+        "transport": "car",
+        "weight": 255,
+      },
+      "Prague": Object {
+        "cost": 160,
+        "discount": 25,
+        "duration": Object {
+          "h": "03",
+          "m": "00",
+        },
+        "reference": "TWP0300",
+        "transport": "train",
+        "weight": 180,
+      },
+      "Stockholm": Object {
+        "cost": 160,
+        "discount": 25,
+        "duration": Object {
+          "h": "05",
+          "m": "15",
+        },
+        "reference": "TWS0515",
+        "transport": "train",
+        "weight": 315,
+      },
+    },
+  },
+}
+`;

@@ -1,0 +1,112 @@
+.tripSorter__selectionContainer {
+  margin: 0 auto;
+  width: 80%;
+  overflow: hidden;
+  background-color: white;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 0 4px 0 13px;
+  height: 48px;
+  border-radius: 34px;
+  box-shadow: 0 6px 20px 1px #00000069;
+  transition: all 0.3s;
+}
+
+.tripSorter__select {
+  flex: 3;
+  display: flex;
+  align-items: center;
+}
+
+.tripSorter__mode {
+  flex: 1;
+  display: flex;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.tripSorter__mode--btn {
+  margin: 0 3px;
+  height: 29px;
+  line-height: 29px;
+  border: 1px solid #cccccc94;
+  border-radius: 6px;
+  width: 73px;
+  font-size: 12px;
+  font-weight: 100;
+  transition: all 0.1s;
+  cursor: pointer;
+}
+
+.tripSorter__mode--btn.active,
+.tripSorter__mode--btn:hover {
+  border: 1px solid #0284ab7a;
+  font-weight: bold;
+}
+
+.tripSorter__search {
+  margin: 0 auto;
+}
+
+.tripSorter__select--item {
+  padding: 0 7px;
+  font-size: 13px;
+  color: #b1b1b1;
+}
+
+select {
+  margin: 0 7px;
+  width: 150px;
+  padding: 5px 30px 5px 5px;
+  font-size: 12px;
+  border: 1px solid #e8e8e8;
+  height: 30px;
+  appearance: none;
+  background: url(https://use.fontawesome.com/releases/v5.0.13/svgs/solid/map-marker-alt.svg)
+    96% / 15% no-repeat #fff;
+  background-size: 13px;
+}
+
+.tripSorter__search--btn {
+  border-radius: 46px;
+  height: 42px;
+  line-height: 42px;
+  text-align: center;
+  cursor: pointer;
+  font-size: 12px;
+  color: white;
+  font-weight: 100;
+  width: 80px;
+  background-color: #01719a;
+  transition: all 0.3s;
+}
+
+.tripSorter__search--btn:hover {
+  background-color: #00a1dc;
+}
+
+.tripSorter__select--arrow {
+  font-size: 13px;
+}
+
+@media only screen and (max-width: 765px) {
+  .tripSorter__selectionContainer {
+    width: 100%;
+    box-sizing: border-box;
+    flex-direction: column;
+    height: 130px;
+    border-radius: 0;
+    padding: 10px 0;
+  }
+
+  .tripSorter__select {
+    flex: 1 1;
+  }
+
+  .tripSorter__search--btn {
+    border-radius: 5px;
+    height: 32px;
+    line-height: 32px;
+  }
+}

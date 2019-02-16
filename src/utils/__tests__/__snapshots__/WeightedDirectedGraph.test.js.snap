@@ -1,0 +1,45 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Creates an instance of WeightedDirectedGraph and adds/removes simple vertices and edges 1`] = `
+Object {
+  "A": Object {
+    "edges": Object {
+      "B": Object {
+        "ref": "AB1",
+        "weight": 1,
+      },
+    },
+  },
+  "B": Object {
+    "edges": Object {
+      "A": Object {
+        "ref": "BA1",
+        "weight": 2,
+      },
+      "C": Object {
+        "ref": "BC1",
+        "weight": 5,
+      },
+    },
+  },
+  "C": Object {
+    "edges": Object {},
+  },
+}
+`;
+
+exports[`Creates an instance of WeightedDirectedGraph and adds/removes simple vertices and edges 2`] = `
+Object {
+  "A": Object {
+    "edges": Object {
+      "B": Object {
+        "ref": "AB1",
+        "weight": 1,
+      },
+    },
+  },
+  "C": Object {
+    "edges": Object {},
+  },
+}
+`;

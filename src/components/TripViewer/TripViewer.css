@@ -1,0 +1,124 @@
+.tripSorter__journeyContainer {
+  margin: 0 auto 50px;
+  width: 80%;
+  height: 120px;
+  border-radius: 5px;
+  padding: 0;
+  background-color: white;
+  display: -ms-flexbox;
+  display: flex;
+  align-items: center;
+  box-shadow: 0 1px 4px 0 #00000096;
+  justify-content: space-between;
+}
+
+.tripSorter__journeyContainer--side {
+  height: 100%;
+  text-align: center;
+  line-height: 120px;
+}
+
+.tripSorter__journeyContainer--transport {
+  width: 50px;
+  background-color: #01719a;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  color: white;
+  font-size: 30px;
+}
+
+.tripSorter__journeyContainer--cost {
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  width: 90px;
+  background-color: #ececec;
+}
+
+.tripSorter__journeyContainer--cost-title,
+.tripSorter__journeyContainer--cost-normal,
+.tripSorter__journeyContainer--cost-afterDiscount {
+  line-height: normal;
+}
+
+.tripSorter__journeyContainer--cost-title {
+  line-height: 42px;
+  font-size: 15px;
+  color: #444444;
+}
+
+.tripSorter__journeyContainer--cost-normal {
+  text-decoration: line-through;
+  color: #9c9c9c;
+}
+
+.tripSorter__journeyContainer--cost-afterDiscount {
+  font-size: 18px;
+  line-height: 40px;
+  font-weight: 800;
+  color: #01719a;
+}
+
+.tripSorter_tripHeading {
+  font-family: "Quicksand", sans-serif;
+  text-align: center;
+  padding: 30px 0 0 0;
+  font-size: 27px;
+  color: white;
+  line-height: 70px;
+}
+
+.tripSorter__journeyName {
+  font-size: 21px;
+  color: #005c7d;
+}
+
+.tripSorter__journeyLabel {
+  position: absolute;
+  top: -13px;
+  color: #656565;
+}
+
+.tripSorter__journeyLabelContainer {
+  position: relative;
+  padding: 0 10px;
+}
+
+.tripSorter__journeyLabelValue {
+  position: relative;
+  font-size: 16px;
+}
+
+.tripSorter__journeySummary {
+  display: flex;
+  justify-content: space-between;
+  font-size: 16px;
+  width: 80%;
+  color: #4c4c4c;
+  text-align: right;
+  margin: 0 auto;
+  padding-bottom: 20px;
+}
+
+.tripSorter__resetBtn {
+  background-color: #e4e4e4;
+  padding: 9px 20px;
+  color: #868686;
+  font-size: 12px;
+  border-radius: 6px;
+  transition: all 0.3s;
+  cursor: pointer;
+}
+
+.tripSorter__resetBtn:hover {
+  background-color: #d8d8d8;
+}
+
+@media only screen and (max-width: 765px) {
+  .tripSorter__journeyContainer {
+    width: 100%;
+  }
+
+  .tripSorter__journeyName {
+    font-size: 16px;
+  }
+}
